@@ -3,5 +3,5 @@
 class Math
 {
 public:
-	int Add(int a, int b);
+	static int Add(int a, int b);
 };

@@ -1,8 +1,10 @@
 #include <iostream>
+#include "mathlib/math.h"
 
 int main(int argc, char *argv[])
 {
-	std::cout << "Hello World" << std::endl;
+	int sum = Math::Add(5, 2);
+	std::cout << sum << std::endl;
 	std::cin.get();
 	return 0;
 }
